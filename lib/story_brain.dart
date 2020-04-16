@@ -38,6 +38,10 @@ class StoryBrain {
   String getStory() {
     return _storyData[_storyNumber].title;
   }
+
+  String getChoice1() {
+    return _storyData[_storyNumber].choice1;
+  }
 }
 
 //TODO: Step 23 - Use the storyNumber property inside getStory(), getChoice1() and getChoice2() so that it gets the updated story and choices rather than always just the first (0th) one.
